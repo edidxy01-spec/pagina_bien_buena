@@ -26,28 +26,28 @@
     </header>
 
   
-    <main style="display: block; max-width: 500px;">
-        <div class="caja-info" style="width: 100%;">
-            <h2 style="color: #00FF88; margin-bottom: 20px; text-align: center;">Iniciar Sesión</h2>
-            <p style="margin-bottom: 25px; text-align: center; color: #8B9BB4; font-size: 0.95rem;">Entra con tu cuenta para unirte al clan.</p>
+    <main class="contenedor-login">
+    <div class="caja-info caja-formulario">
+        <h2 class="titulo-seccion" style="text-align: center;">Iniciar Sesión</h2>
+        <p class="subtitulo-seccion">Entra con tu cuenta para unirte al clan.</p>
+        
+        <form action="#" method="POST" class="formulario-gamer">
+            <div class="grupo-formulario">
+                <label class="etiqueta-formulario">Usuario o Correo:</label>
+                <input type="text" placeholder="Tu nick gamer" class="input-gamer">
+            </div>
             
-            <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
-                <div>
-                    <label style="display: block; margin-bottom: 8px; color: #00FF88;">Usuario o Correo:</label>
-                    <input type="text" placeholder="Tu nick gamer" style="width: 100%; padding: 12px; background-color: #0B0E14; border: 1px solid #2A3441; color: #F0F4F8; border-radius: 6px;">
-                </div>
-                
-                <div>
-                    <label style="display: block; margin-bottom: 8px; color: #00FF88;">Contraseña:</label>
-                    <input type="password" placeholder="••••••••" style="width: 100%; padding: 12px; background-color: #0B0E14; border: 1px solid #2A3441; color: #F0F4F8; border-radius: 6px;">
-                </div>
+            <div class="grupo-formulario">
+                <label class="etiqueta-formulario">Contraseña:</label>
+                <input type="password" placeholder="••••••••" class="input-gamer">
+            </div>
 
-                <button type="submit" style="background-color: #00FF88; color: #0B0E14; padding: 12px; font-weight: bold; border: none; border-radius: 6px; cursor: pointer; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; margin-top: 10px;">
-                    Entrar al Juego
-                </button>
-            </form>
-        </div>
-    </main>
+            <button type="submit" class="boton-gamer">
+                gracias por unirte
+            </button>
+        </form>
+    </div>
+</main>
 
     <footer>
         <p>Hecho por mí</p>
